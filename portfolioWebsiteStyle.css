@@ -1,0 +1,61 @@
+.entirePage
+    {
+        display:flex;
+        justify-content:space-evenly;
+    }
+h1
+    {
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+h2
+    {
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+h3
+    {
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+p
+    {
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+body
+    {
+    background-color: #e3d4f5;
+    }
+    /* unvisited link */
+a:link {
+    color: #7aeba0;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #4450bd;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #f7ee6a;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #f76a8e; 
+}
+  
+table
+      {
+          font-family: 'Trebuchet MS', sans-serif;
+          border-collapse: collapse;
+          width: 30%;
+      }  
+  td, th
+      {
+          border: 1px solid white;
+          text-align: left;
+          padding: 6px;
+      }
+  tr:nth-child(odd)
+      {
+          background-color: #b0aeae;
+      }
